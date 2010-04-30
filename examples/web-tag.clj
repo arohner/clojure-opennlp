@@ -2,7 +2,8 @@
   (:use [opennlp.nlp]) ; http://github.com/dakrone/clojure-opennlp
   (:use [clojure.contrib.pprint])
   (:use [clojure.contrib.duck-streams :only [slurp*]])
-  (:use [clojure.contrib.seq-utils :only [partition-all]]))
+  ;; (:use [clojure.contrib.seq-utils :only [partition-all]])
+  )
 
 (defn strip-html-tags
   "Messily strip html tags from a web page"
